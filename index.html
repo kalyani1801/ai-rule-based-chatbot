@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Rule-Based Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+
+   <div class="header">
+    <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" alt="Bot">
+    <h2>AI Rule-Based Chatbot</h2>
+</div>
+
+    <div id="chat-box">
+        <div class="bot-message">
+    Hello! I am your AI chatbot.<br>
+    Date & Time: <span id="datetime"></span>
+</div>
+    </div>
+<div class="controls">
+    <button onclick="clearChat()">Clear Chat</button>
+</div>
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Type a message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
